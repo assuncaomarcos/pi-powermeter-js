@@ -1,0 +1,20 @@
+{
+  "name": "pi-powermeter",
+  "version": "0.0.1",
+  "description": "Raspberry Pi based power meter",
+  "author": "Marcos Dias de Assuncao <assuncao@acm.org>",
+  "main": "./lib/powermeter",
+  "scripts": {
+    "start" : "node lib/powermeter.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "influx": "^5.9.2",
+    "rpio": "^2.4.2"
+  },
+  "files": [
+    "lib"
+  ]
+}
